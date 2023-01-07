@@ -1,0 +1,450 @@
+﻿"Issue Id","Project","Tags","Summary","Reporter","Created","Updated","Resolved","Priority","Type","State","Assignee","Sprints","Story points","Environment","QASE TC # (only for bug)","Description","Votes"
+"G23-1","group2.3","","#4 Testing Documentation","root","25 Oct 2022","30 Nov 2022",,"Critical","Epic","Open","Unassigned","Unscheduled",,"No environment","No qase tc # (only for bug)",,"0"
+"G23-2","group2.3","","#5 Web App Testing","root","25 Oct 2022","30 Nov 2022",,"Critical","Epic","Open","Unassigned","Unscheduled",,"No environment","No qase tc # (only for bug)",,"0"
+"G23-3","group2.3","","#9 Mobile App Testing","root","25 Oct 2022","2 Jan 2023",,"Critical","Epic","Open","Unassigned","Unscheduled",,"No environment","No qase tc # (only for bug)",,"0"
+"G23-4","group2.3","","Testing Documentation: Viktoria Streminskaia","v.streminskaia","6 Nov 2022","6 Nov 2022",,"Normal","Task","Open","Unassigned","Unscheduled",,"No environment","No qase tc # (only for bug)",,"0"
+"G23-5","group2.3","","The Delete Customer button no exists on the initial page and Hamburger menu","v.streminskaia","6 Nov 2022","23 Nov 2022",,"Major","Bug","Open","Unassigned","Unscheduled",,"Windows 11 Pro 21H2 Google Chrome 106.0.5249.121","G23-57","**Pre-conditions** : <https://demo.guru99.com/telecom> is open.
+
+**STR**:
+
+1. Check the Active buttons bellow logo (header)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Click the Hamburger menu
+
+**Actual result:** Delete Customer button no exists on Hamburger menu and initial page
+
+**Expected result:** The Delete Customer button exists on the initial page and Hamburger menu","0"
+"G23-6","group2.3","","All required fields aren't marked *","v.streminskaia","6 Nov 2022","6 Nov 2022",,"Major","Bug","Open","Unassigned","Unscheduled",,"Windows 11 Pro 21H2 Google Chrome 106.0.5249.121","G23-59","**Pre-conditions** : <https://demo.guru99.com/telecom> is open.
+
+**STR**:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.Select Add Customer from initial page or Hamburger menu
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.Check that all required fields are marked
+
+**Actual result:** All required fields aren't marked \*
+
+**Expected result:** All required fields aren't marked \*","0"
+"G23-8","group2.3","","The blocking modal window appears after clicking on the Add Customer button (initial page)","v.streminskaia","6 Nov 2022","7 Nov 2022",,"Major","Bug","Open","Unassigned","Unscheduled",,"Windows 11 Pro 21H2 Google Chrome 106.0.5249.121","No qase tc # (only for bug)","**Pre-conditions:** The page <https://demo.guru99.com/telecom/index.html> is open. Сlear cookies and browser cache
+
+**STR:**
+
+1. Select Add Customer from initial page
+
+**Actual result:** User is redirected on Add Customer page
+
+**Expected result:** The blocking modal window appears","0"
+"G23-9","group2.3","","Incorrect message when Add Customer: FirstName=empty value","v.streminskaia","6 Nov 2022","23 Nov 2022",,"Normal","Bug","Open","Unassigned","Unscheduled",,"Windows 11 Pro 21H2 Google Chrome 106.0.5249.12","No qase tc # (only for bug)","**Pre-conditions:** The page <https://demo.guru99.com/telecom/addcustomer.php> is open. All fields except FirstName filled with valid data
+
+**STR:**
+
+1. Leave the field FirstName empty
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Click Submit button
+
+**Actual result:** The message ' **Customer**Name name must not be blank' is presented under the FirstName field
+
+**Expected result:** The message '**First**Name must not be blank' is presented under the FirstName field","0"
+"G23-10","group2.3","","Сyrillic letters are allowed in the Add Customer/Billing Address/Email field","v.streminskaia","6 Nov 2022","9 Nov 2022",,"Normal","Bug","Open","Unassigned","Unscheduled",,"Windows 11 Pro 21H2 Google Chrome 106.0.5249.121","G23-15","**Pre-conditions:** <https://demo.guru99.com/telecom/addcustomer.php> is open. The Email field is selected
+
+**STR:**
+
+1. Fill in the Email field in Cyrillic letters + @gmail.com
+
+**Actual result:**  No error message appears bellow the E-mail field
+
+**Expected result:** An error message ""Email-ID is not valid"" is arrears","0"
+"G23-11","group2.3","","Special characters are allowed in the email field","v.streminskaia","6 Nov 2022","6 Nov 2022",,"Normal","Bug","Open","Unassigned","Unscheduled",,"No environment","No qase tc # (only for bug)","**Pre-conditions:** <https://demo.guru99.com/telecom/addcustomer.php> is open. The Email field is selected
+
+**STR:** 
+
+1. Fill in the Email field in special characters + @gmail.com
+
+**Actual result:** No error message appears
+
+**Expected result:** An error message ""Email is not valid"" is appears","0"
+"G23-12","group2.3","","The filler text with a description of the active buttons in Latin  and doesn't describe the button's action","v.streminskaia","6 Nov 2022","6 Nov 2022",,"Normal","Bug","Open","Unassigned","Unscheduled",,"Windows 11 Pro 21H2 Google Chrome 106.0.5249.121","No qase tc # (only for bug)","**STR:** Open the <https://demo.guru99.com/telecom/index.html>
+
+**Actual result:** The filler text with a description of the active buttons in Latin  and doesn't describe the button's action
+
+Expected result: The filler text with a description of the active buttons in English (like all site information) and describes the button's action","0"
+"G23-13","group2.3","","The Reset button doesn't resets error messages","v.streminskaia","6 Nov 2022","6 Nov 2022",,"Major","Bug","Open","Unassigned","Unscheduled",,"Windows 11 Pro 21H2 Google Chrome 106.0.5249.121","G23-32","**Pre-conditions:** <https://demo.guru99.com/telecom/addcustomer.php> is open.
+
+**STR:** 
+
+1. Fill in the fields with invalid data 
+2. Click Reset button 
+
+**Actual result:** All data n the fields are disappeared. Error messages are below the fields.
+
+**Expected result:** All data and error messages disappear","0"
+"G23-14","group2.3","","A comma is not allowed in the Add Client: Address field","v.streminskaia","6 Nov 2022","6 Nov 2022",,"Normal","Bug","Open","Unassigned","Unscheduled",,"Windows 11 Pro 21H2 Google Chrome 106.0.5249.121","23-23","**Pre-conditions:** The page <https://demo.guru99.com/telecom/addcustomer.php> is open.
+
+**STR:**
+
+1. Input in the Address field Latin letters with comma
+
+**Actual result:** Error message 'Special characters are not allowed' appears
+
+**Expected result:** Letters with comma are displayed in the Address field. No error message appears","0"
+"G23-15","group2.3","","A dot is not allowed in the Add Client: Address field","v.streminskaia","6 Nov 2022","6 Nov 2022",,"Normal","Bug","Open","Unassigned","Unscheduled",,"Windows 11 Pro 21H2 Google Chrome 106.0.5249.121","G23-22","**Pre-conditions:** The page <https://demo.guru99.com/telecom/addcustomer.php> is open.
+
+**STR:**
+
+1. Input in the Address field Latin letters with dot
+
+**Actual result:** Error message 'Special characters are not allowed' appears
+
+**Expected result:** Letters with dot are displayed in the Address field. No error message appears","0"
+"G23-27","group2.3","","Testing Documentation Anton Barkovskii","barkas4505","7 Nov 2022","30 Nov 2022",,"Normal","Epic","Open","Unassigned","Unscheduled",,"No environment","No qase tc # (only for bug)",,"0"
+"G23-47","group2.3","","Web App Testing: Victoria Streminskaia","v.streminskaia","23 Nov 2022","23 Nov 2022",,"Normal","Epic","Open","Unassigned","Unscheduled",,"No environment","No qase tc # (only for bug)",,"0"
+"G23-48","group2.3","","Каталог: отсутствие информера, указывающего на доступность/недоступность товара к покупке","v.streminskaia","23 Nov 2022","6 Jan 2023",,"Normal","Bug","Open","Unassigned","Unscheduled",,"Windows 11 Pro 21H2 . Google Chrome 107.0.5304.107","G23-111","**Pre-conditions** 
+
+**STR**\:
+
+1.  Открыть страницу <https://demowebshop.tricentis.com/>
+2. Перейти в любую категорию товара через боковое меню/хедер страницы
+
+**Actual result:**  отсутствует информер, указывающий на доступность/недоступность товара к покупке
+
+**Expected result:** Под каждым товаром расположен информер о наличии товара: в наличии/нет в наличии, остаток числом, много/мало/достаточно. В случае исчерпания запаса товаров пользователю предоставляется опция зарезервировать закончившийся товар. Список зарезервированных заказов доступен на странице","0"
+"G23-49","group2.3","","Каталог: Отсутствует изображение для каждого товара в каталоге с возможностью увеличения картинки (лупа или через ""+"")","v.streminskaia","23 Nov 2022","23 Nov 2022",,"Normal","Bug","Open","Unassigned","Unscheduled",,"Windows 11 Pro 21H2 Google Chrome 107.0.5304.107","G23-112","**Pre-conditions** : Пользователь находится на странице <https://demowebshop.tricentis.com/>
+
+**STR**:
+
+1. Кликнуть по категории товаров в боковом меню/в хедере страницы.
+2. Кликнуть на интересующий товар
+
+**Actual result:** Не все товары в каталоге имеют изображения,  отсутвтсует возможность увеличения картинки
+
+**Expected result:** Открывается карточка товара с изображением и возможностью увеличения/уменьшения картинки","0"
+"G23-50","group2.3","","Корзина: отсутствует возможность добавления некоторых товаров в Избранное, путем нажатия на Add to Wish list в карточке товара","v.streminskaia","23 Nov 2022","23 Nov 2022",,"Normal","Bug","Open","Unassigned","Unscheduled",,"Windows 11 Pro 21H2 Google Chrome 107.0.5304.107","G23-113","**Pre-conditions** : Пользователь находится на странице <https://demowebshop.tricentis.com/>
+
+**STR**:
+
+1. Кликнуть по категории товаров в боковом меню/в хедере страницы.
+2. Выбрать товар из каталога, кликнуть по картинке (Apparel&Shoes/BLUE JEANS)
+3. Кликнуть на Add to Wish list в карточке товара
+
+**Actual result:** Отсутствует кнопка Add to Wishlist у некоторой категории товаров
+
+**Expected result:** В карточке каждого товара имеется кнопка Add to Wishlist. Любой товар из каталога можно добавить в избранное","0"
+"G23-51","group2.3","","Корзина: отсутствует возможность редактирования некоторых товаров из Корзины, путем нажатия на Edit под товаров в корзине","v.streminskaia","23 Nov 2022","23 Nov 2022",,"Normal","Bug","Open","Unassigned","Unscheduled",,"Windows 11 Pro 21H2 Google Chrome 107.0.5304.107","G23-113","**Pre-conditions** : Пользователь находится на странице <https://demowebshop.tricentis.com/>
+
+**STR**:
+
+1. Кликнуть по категории товаров в боковом меню/в хедере страницы.
+2. Кликнуть Add to cart под карточкой интересующего товара
+3. Перейти в корзину путем нажатия на Shopping Cart в хедере страницы
+4. Кликнуть на кнопку Edit под наименованием товара
+
+**Actual result:** Кнопка Edit  отсутствует под некоторыми категориями товаров.
+
+**Expected result:** Кнопка Edit присутствует под каждым товаром корзины, существует возможность внесения изменений.","0"
+"G23-52","group2.3","","Корзина: отсутствует возможность удаления товара из корзины через Delete или значок Х в карточке товара","v.streminskaia","23 Nov 2022","23 Nov 2022",,"Normal","Bug","Open","Unassigned","Unscheduled",,"Windows 11 Pro 21H2 Google Chrome 107.0.5304.107","G23-115","**Pre-conditions** : Пользователь находится на странице <https://demowebshop.tricentis.com/>
+
+**STR**:
+
+1. Кликнуть по категории товаров в боковом меню/в хедере страницы.
+2. Кликнуть Add to cart под карточкой интересующего товара
+3. Перейти в корзину путем нажатия на Shopping Cart в хедере страницы
+4. Кликнуть на кнопку Delete или Х напротив товара для его удаления из корзины
+
+**Actual result:** Кнопка Delete  или значок ""Х"" отсутствует напротив товаров корзины. 
+
+**Expected result:** Напротив каждого товара корзины присутствует кнопка Delete  или значок ""Х"" , после нажатия на которую товар удаляется из корзины","0"
+"G23-53","group2.3","","Корзина: После нажатия на  Continue shopping пользователь перенаправляется не на главную страницу сайта, а в раздел товаров, из которого в корзину был добавлен послений товар","v.streminskaia","23 Nov 2022","23 Nov 2022",,"Normal","Bug","Open","Unassigned","Unscheduled",,"Windows 11 Pro 21H2 Google Chrome 107.0.5304.107","G23-115","**Pre-conditions** : Пользователь находится на странице <https://demowebshop.tricentis.com/>
+
+**STR**:
+
+1. Кликнуть по категории товаров в боковом меню/в хедере страницы.
+2. Кликнуть Add to cart под карточкой интересующего товара
+3. Перейти в корзину путем нажатия на Shopping Cart в хедере страницы
+4. Под списком товаров корзины нажать на кнопку Continue shopping
+
+**Actual result:** redirect не на главную страницу сайта, а в раздел товаров, из которого в корзину был добавлен послений товар
+
+<https://drive.google.com/file/d/1kCL-Wd3tL2mkb5udNJEyy8RWrNLRTZ6h/view?usp=share_link>
+
+<https://drive.google.com/file/d/19UaA-JVN1-seG0cxQw2_-Q1kFLiwQP7U/view?usp=share_link>
+
+**Expected result:** Возможность возврата из корзины на главную страницу каталога через нажатие на Continue shopping","0"
+"G23-54","group2.3","","Модуль оплаты: Payment Method - система позволяет осуществить оплату картой с недостаточным балансом","v.streminskaia","23 Nov 2022","23 Nov 2022",,"Normal","Bug","Open","Unassigned","Unscheduled",,"Windows 11 Pro 21H2 Google Chrome 107.0.5304.107","G23-117","**Pre-conditions** : Товар находится в корзине, пользователь согласился с условиями оплаты, заполнил Billing Address, Shipping Address, Shipping Method.
+
+**STR**:
+
+1. В разделе Payment Method отметить radiobutton Ctedit card. Нажать Continue
+2. В ""Select credit card"" выбрать ""VISA""
+3. В ""Cardholder name"" ввести имя (TEST)
+4. В ""Card number"" ввести номер карты с недостаточным балансом (375118435530560)
+5. В ""Expiration date"" выбрать дату (12/2025)
+6. В ""Card code"" ввести код (123)
+7. Нажать на кнопку ""Continue""
+
+**Actual result:** осуществляется переходв раздел Confirm Order, пользователь может завершть оплату
+
+**Expected result:** Появляется валидационное сообщение о недостаточном количестве средств на денежном счету","0"
+"G23-55","group2.3","","Wishlist: осутствует превью Wishlist с выводом кратких характеристик товара при наведении на Wishlist в хедере страницы","v.streminskaia","23 Nov 2022","23 Nov 2022",,"Normal","Bug","Open","Unassigned","Unscheduled",,"Windows 11 Pro 21H2 Google Chrome 107.0.5304.107","No qase tc # (only for bug)","**Pre-conditions** : Пользователь находится на странице <https://demowebshop.tricentis.com/>
+
+**STR**:
+
+1. Кликнуть по категории товаров в боковом меню/в хедере страницы.
+2. Выбрать товар из каталога, кликнуть по картинке 
+3. Кликнуть на Add to Wish list в карточке товара
+4. Навести курсор на раздел Wishlist в хедере страницы
+
+**Actual result:** осутствует превью Wishlist с выводом кратких характеристик товара при наведении на Wishlist
+
+**Expected result:** При наведении на Wishlist открывается превью с инфрмацией о добавленных в Избранное товаров","0"
+"G23-56","group2.3","","Модуль оплаты: Payment Method - допускается оплата украденной картой","v.streminskaia","23 Nov 2022","6 Jan 2023",,"Normal","Bug","Open","Unassigned","Unscheduled",,"Windows 11 Pro 21H2 Google Chrome 107.0.5304.107","G23-120","**Pre-conditions** : Товар находится в корзине, пользователь согласился с условиями оплаты, заполнил Billing Address, Shipping Address, Shipping Method.
+
+**STR**:
+
+1. В разделе Payment Method отметить radiobutton Ctedit card. Нажать Continue
+2. В ""Select credit card"" выбрать ""VISA""
+3. В ""Cardholder name"" ввести имя (TEST)
+4. В ""Card number"" ввести номер карты со статусом Pick up. Stolen card (38000000000006)
+5. В ""Expiration date"" выбрать дату (12/2025)
+6. В ""Card code"" ввести код (123)
+7. Нажать на кнопку ""Continue""
+
+**Actual result:** осуществляется переходв раздел Confirm Order, пользователь может завершть оплату
+
+**Expected result:** Появляется валидационное сообщение о невозможности оплаты данной картой","0"
+"G23-57","group2.3","","Модуль оплаты: Payment Method - допускается оплата картой с запрещенной транзакцией","v.streminskaia","23 Nov 2022","6 Jan 2023",,"Normal","Bug","Open","Unassigned","Unscheduled",,"Windows 11 Pro 21H2 Google Chrome 107.0.5304.107","G23-121","**Pre-conditions** : Товар находится в корзине, пользователь согласился с условиями оплаты, заполнил Billing Address, Shipping Address, Shipping Method.
+
+**STR**:
+
+1. В разделе Payment Method отметить radiobutton Ctedit card. Нажать Continue
+2. В ""Select credit card"" выбрать ""VISA""
+3. В ""Cardholder name"" ввести имя (TEST)
+4. В ""Card number"" ввести номер карты со статусом Transaction not permitted to CH (4750657776370372)
+5. В ""Expiration date"" выбрать дату (12/2025)
+6. В ""Card code"" ввести код (123)
+7. Нажать на кнопку ""Continue""
+
+**Actual result:** осуществляется переходв раздел Confirm Order, пользователь может завершть оплату
+
+**Expected result:** Появляется валидационное сообщение о невозможности оплаты данной картой","0"
+"G23-60","group2.3","","Web App Testing: Irina Rokalo","irinarokalo","24 Nov 2022","24 Nov 2022",,"Normal","Task","Open","Unassigned","Unscheduled",,"No environment","No qase tc # (only for bug)",,"0"
+"G23-69","group2.3","","Missing currency name in all app functionality","akrasovskaa207","27 Nov 2022","28 Nov 2022",,"Normal","Bug","Open","Unassigned","Unscheduled",,"No environment","No qase tc # (only for bug)",,"0"
+"G23-70","group2.3","","Payment with a blocked card (pick up stolen card)","akrasovskaa207","27 Nov 2022","27 Nov 2022",,"Normal","Bug","Open","Unassigned","Unscheduled",,"No environment","No qase tc # (only for bug)",,"0"
+"G23-71","group2.3","","Payment with a blocked card (insufficient funds).","akrasovskaa207","27 Nov 2022","27 Nov 2022",,"Normal","Bug","Open","Unassigned","Unscheduled",,"No environment","No qase tc # (only for bug)",,"0"
+"G23-74","group2.3","","Shopping cart: placing a larger-than-1000-unit order","barkas4505","30 Nov 2022","30 Nov 2022",,"Normal","Bug","Open","Unassigned","Unscheduled",,"""Windows 10 Version 21H2 Google Chrome 107.0.5304.122""","No qase tc # (only for bug)","**Pre-conditions:** User is authorized:
+
+Email: test12345@mail.ru
+
+Password: qwerty12345
+
+Product added to shopping cart
+
+**Step 1**: Go to ""shopping cart"" 
+
+**Step 2**: In the ""Qty"" field, enter a value - 2\>Enter
+
+**Step 3**: In the ""Qty"" field, enter a value - 9999\>Enter
+
+**Step 4**: In the ""Qty"" field, enter a value - 10000\>Enter
+
+**Step 5**: In the ""Qty"" field, enter a value - 10001\>Enter
+
+**Expected result:** Depending on the quantity of goods, the order's total price has altered.
+
+**Actual Result:** 
+Message: **The maximum quantity allowed for purchase is 10000.**","0"
+"G23-78","group2.3","","Mobile App Testing: Viktoria Streminskaia","v.streminskaia","29 Dec 2022","4 Jan 2023",,"Normal","Task","Open","Unassigned","Unscheduled",,"No environment","No qase tc # (only for bug)",,"0"
+"G23-88","group2.3","","Statistic: returning to the initial screen by swiping screen from left to right or by pressing the ← button is not available","v.streminskaia","3 Jan 2023","3 Jan 2023",,"Normal","Bug","Open","Unassigned","Unscheduled",,"No environment","No qase tc # (only for bug)","**Pre-conditions** : 1.The application ""TO-DO-MVP is installed and opened on real device Lenovo TB-7304l
+
+2\. The initial screen opened
+
+**STR**\:
+
+1. Tap on Hamburger menu (upper left corner)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Tap on Statistics
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Swipe from the left side of the screen to the right or tap the ""←"" button
+
+**Actual result: Swiping from the left side of the screen to the right doesn't return to the initial screen, the ""←"" button doesn't exist  on statistics screen.**
+
+**Expected result:** Returns to the initial screen","0"
+"G23-89","group2.3","","Creating a new task:  Application crash after creating task  with Numbers in the Title","v.streminskaia","3 Jan 2023","3 Jan 2023",,"Normal","Bug","Open","Unassigned","Unscheduled",,"No environment","No qase tc # (only for bug)","**Pre-conditions** : 1. The app is launched.
+
+2\. The initial screen opened
+
+3\. Some tasks created
+
+**STR**\:
+
+1. Tap on the ""+"" button in the lower right corner
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Fill in the Title with Numbers
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Tap the ✓ (lower right corner) button in the list
+
+
+
+**Actual result:** The message ""TO-DO-MVP"" keeps stopping"" is appears. After app's restart all saved tasks are deleted.
+
+**Expected result:** The task with the entered numbers in Title has been created","0"
+"G23-90","group2.3","","Creating a new task: it is possible to create several tasks with the same Title","v.streminskaia","3 Jan 2023","6 Jan 2023",,"Normal","Bug","Open","Unassigned","Unscheduled",,"No environment","No qase tc # (only for bug)","**Pre-conditions** : 1. The app is launched.
+
+2\. The task "" New Year celebration"" was created
+
+**STR**\:
+
+1. Tap on the ""+"" button in the lower right corner
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Fill in the Title with an existing title
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Tap the ✓ (lower right corner) button in the list
+
+
+
+**Actual result:** The task with the existing title is saved
+
+on the list
+
+**Expected result:** The message ""A task with this Title exists. Change Title"" appears.","0"
+"G23-91","group2.3","","Creating a new task: Isn't possible cancel creating a new task and return to the initial page via ""←"" button","v.streminskaia","3 Jan 2023","3 Jan 2023",,"Normal","Bug","Open","Unassigned","Unscheduled",,"No environment","No qase tc # (only for bug)","**Pre-conditions** : 1. The app is launched.
+
+2\. The initial screen opened
+
+**STR**\:
+
+1. Tap on the ""+"" button in the lower right corner
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Tap ""←"" button
+
+ **Actual result:** Tapping the button  ""←"" button does nothing. No return to previous screen
+
+**Expected result:** Returns to the previous screen. New task not created","0"
+"G23-92","group2.3","","TO-Do List/ All To-DOs: Title and description are not editable","v.streminskaia","3 Jan 2023","6 Jan 2023",,"Normal","Task","Open","Unassigned","Unscheduled",,"No environment","No qase tc # (only for bug)","**Pre-conditions**
+
+1\.The application ""TO-DO-MVP"" launched
+2\. The task "" New Year celebration"" was created
+
+**STR**\:
+
+1. Tap on Hamburger menu (upper left corner)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Tap on TO_DO List
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.  Mark check-box ""New Year celebration"" task
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Tap on edit button  (""🖍"")  in the lower right corner
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. Edit Title or Description
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6. Tap on the ""✓ ""(lower right corner) button
+
+**Actual result:** Task resaved without changes
+
+**Expected result:** The task is resaved with changes","0"
+"G23-93","group2.3","","Doner menu/""Active"" button doesn't contain  list of active tasks, but a list of all tasks","v.streminskaia","3 Jan 2023","4 Jan 2023",,"Normal","Task","Open","Unassigned","Unscheduled",,"No environment","No qase tc # (only for bug)","**Pre-conditions:**  1.The application ""TO-DO-MVP"" launched
+
+2\. Some tasks were created
+
+**STR**\:
+
+1. Tap the Doner menu button (upper right corner)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Tap the ""Active"" button
+
+**Actual result: There is not a list of active tasks, but a list ALL existing tasks**
+
+**Expected result:** List Active TO-DOs with active tasks appears","0"
+"G23-94","group2.3","","Kebab menu / App crashes after tapping  ""Refresh"" button","v.streminskaia","3 Jan 2023","6 Jan 2023",,"Normal","Task","Open","Unassigned","Unscheduled",,"No environment","No qase tc # (only for bug)","**Pre-conditions** : 1. The app is launched.
+
+**STR**\:
+
+1. Tap the Kebab menu (upper right corner)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Tap the ""Refresh"" button
+
+**Actual result:** The application is reloading. All tasks are deleted
+
+**Expected result:** The screen is updated. All information is saved","0"
+"G23-95","group2.3","","Kebab menu / ""Clear completed"" button doesn't clear the list of completed tasks","v.streminskaia","3 Jan 2023","4 Jan 2023",,"Normal","Task","Open","Unassigned","Unscheduled",,"No environment","No qase tc # (only for bug)","Preconditions: 1.The application ""TO-DO-MVP is launched
+
+2\. Some tasks were created
+
+**STR**\:
+
+1. Open All TO-DOs list
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Mark the task with a check-box
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Tap the Kebab menu (upper right corner)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Tap the ""Clear completed"" button
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.Tap the Completed  button in Doner menu
+
+**Actual result:** All tasks marked as completed exist in the list.
+
+**Expected result:** The list of completed task is cleared","0"
+"G23-96","group2.3","","TO-Do List/ All To-DOs: it is not possible to delete a few tasks from list","v.streminskaia","3 Jan 2023","3 Jan 2023",,"Normal","Task","Open","Unassigned","Unscheduled",,"No environment","No qase tc # (only for bug)","Preconditions: 1.The application ""TO-DO-MVP is launched
+
+2\. Some tasks were created
+
+**STR**\:
+
+1. Open All TO-DOs list
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Mark a few task with a check-box
+
+**Actual result:**l Tasks marked as completed. The ""Delete tasks"" button doesn't appears in the upper right corner
+
+**Expected result:** All tasks are marked as completed. The ""Delete tasks"" button appears in the upper right corner","0"
+"G23-97","group2.3","","Hamburger menu: ""Statistic"" button doesn't show a number of completed tasks","v.streminskaia","4 Jan 2023","6 Jan 2023",,"Normal","Task","Open","Unassigned","Unscheduled",,"No environment","No qase tc # (only for bug)","Preconditions: 1. The Android Studio is open 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. The application TO-DO-MVP is launched. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Some tasks created
+
+**STR**\:
+
+1. Open All TO-DOs list
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Mark the task with a check-box
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Tap on Hamburger menu
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Select the ""Statistic"" button
+
+**Actual result:** Only the number of active tasks is shown. Completed tasks=0
+
+**Expected result:** Statistic shows the numbers of active and completed tasks.","0"
+"G23-98","group2.3","","Creating a new task: The task is saved with a space icon as the Title","v.streminskaia","4 Jan 2023","6 Jan 2023",,"Normal","Task","Open","Unassigned","Unscheduled",,"No environment","No qase tc # (only for bug)","Preconditions: 1. The Android Studio is open
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. The application TO-DO-MVP is launched.
+
+**STR**\:
+
+1. Tap on the ""+"" button in the lower right corner
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Fill in the Title only space icon
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Tap the ✓ (lower right corner) button in the list
+
+
+
+**Actual result:** The task without visible title saved
+
+**Expected result:** A message about the need to enter letters (or other valid data) in the Title appears","0"
+"G23-99","group2.3","","Created tasks aren't saved after application is closed","v.streminskaia","4 Jan 2023","6 Jan 2023",,"Normal","Task","Open","Unassigned","Unscheduled",,"No environment","No qase tc # (only for bug)","**Pre-conditions** : 1.The application ""TO-DO-MVP is installed and opened on real device Lenovo TB-7304l
+
+2\. Some active and completed tasks were created
+
+**STR**\:
+
+1. Open the list of tasks
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Close the application
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Open the application
+
+**Actual result:** The list of tasks is empty
+
+**Expected result:** Application is opened and earlier created tasks exist","0"
